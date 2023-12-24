@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Toaster />
-      <BrowserRouter basename={"/customer"}>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Customer />} />
         </Routes>
